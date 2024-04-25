@@ -16,13 +16,17 @@ if spela.lower() == ("ja"):
     if dator_val == ditt_val: 
         print("Det blev lika")
 
-    elif
+    elif ditt_val == "påse" and dator_val == "sten":
+        print("Du vann")
 
-    elif
+    elif ditt_val == "sax" and dator_val == "påse":
+        print("Du vann")
 
-    elif
+    elif ditt_val == "sten" and dator_val == "sax":
+        print("Du vann")
 
     else:
+        print("Jag vann")
 
 else:
     print("Nej, okej")
