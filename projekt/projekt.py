@@ -38,5 +38,6 @@ spela_igen = input("Vill du spela igen? ")
 
 while spela_igen.lower() == ("ja"):
     a()
+    spela_igen = input("Vill du spela igen? ")
 else: 
     print("Nej okej")
